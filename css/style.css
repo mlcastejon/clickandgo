@@ -425,16 +425,16 @@ h2.gallery
     width: 100%;
     font-family: 'Roboto', sans-serif;    
     font-size: 15px;
-    padding: 2%;
+    padding: 3%;
     background: #32BDB9; 
     color: #EEEFD7;
-
+    border: 0px;
 }
 .form-style input[type="submit"]:hover,
 .form-style input[type="button"]:hover
 {
-    background: #E2E3CD;
-    color: #32BDB9;
+    background: #16545B;
+    color: #EEEFD7;
   
 }
 
