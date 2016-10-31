@@ -65,17 +65,17 @@ body
     margin-left: 50px;
     margin-top: 8px;
 }
-a:link 
+#navbar a 
 {
 	text-decoration: none;
 	color: #16545B;
 }
-a:link:visited 
+#navbar a:visited 
 {
 	text-decoration: none;
 	color: #16545B;
 }
-a:link:hover 
+#navbar a:hover 
 {
 	text-decoration: none;
 	color: #EEEFD7;
@@ -235,7 +235,7 @@ html
 }
 #menu_gral li:hover li a, #menu_gral li:focus li a
 {
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: .9rem;
     line-height: 1.7rem;
     border-top: 1px solid #e5e5e5;
@@ -281,48 +281,22 @@ h3.footheader
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
 	display: inline-block;
 }
-a.links1:link
+.column a
 {
 	color: #EEEFD7;
 	width: 100%;
+	text-decoration: none;
 }
-a.links1:hover
+.column a:hover
 {
-	color: #ec6d19;
-}
-a.links1:visited
-{
-	color: #EEEFD7;
+	color: #16545B;
+	text-decoration: none;
 }
 
-a.column1:link
-{
-	color: #EEEFD7;
-	width: 100%;
-}
-a.column1:hover
-{
-	color: #ec6d19;
-}
-a.column1:visited
-{
-	color: #EEEFD7;
-}
-
-a.email:link
-{
-	color:#ec6d19;
-}
-a.email:hover
-{
-	color: #aa0e1e;
-}
-a.email:visited
-{
-	color: #aa0e1e;
-}
 h1
 {
 	color: #32BDB9;
@@ -403,7 +377,7 @@ h2.gallery
     border: 1px solid #ccc;
     padding: 3%;
     color: #555;
-    font: 95% Arial, Helvetica, sans-serif;
+    font: 95%'Roboto', sans-serif;
 }
 
 .form-style input[type="submit"],
