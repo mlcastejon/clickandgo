@@ -128,6 +128,10 @@ a.button:visited
 	color:#32BDB9;
 	margin-right: 20px;
 }
+#content p
+{
+	color: #16545B;
+}
 
 /* feat image. */
 .feat
@@ -252,8 +256,6 @@ h2.magicschools
  /* Footer. */
 #footer
 {
-	position: relative;
-	display: inline-block;
 	width: 100%;
 	font-size: 12px;
 	color: #EEEFD7;
@@ -263,24 +265,24 @@ h2.magicschools
 }
 .links1
 {
-	position: relative;
+	display: inline-block;
 	font-size: 12px;
-	float:left;
-	text-align: left;
 	width: 33%; 
 }
-h3.links1
+h3.footheader
 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-}
-h3.fooheader
-{
-	margin-top: 5px;
-	margin-bottom: 5px;
+	padding-left: 25px;
 	text-align: center;
 }
-
+.links1 ul, .links1 ol
+{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+}
 a.links1:link
 {
 	color: #EEEFD7;
@@ -307,18 +309,6 @@ a.column1:hover
 a.column1:visited
 {
 	color: #EEEFD7;
-}
-li.column1
-{
-	margin-left: 35%;
-}
-li.column2
-{
-	margin-left: 33%;
-}
-li.column3
-{
-	margin-left: 46%;
 }
 
 a.email:link
